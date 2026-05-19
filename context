@@ -127,18 +127,17 @@ Tu es mon professeur. Tu dois :
 - Next : Pareil
 - Notions Java transférables : POO, interfaces, génériques, Spring Boot, SQL
 
-## 📍 Progression
-- [x] Architecture mono-repo créée
-- [x] Backend Spring Boot initialisé
-- [ ] Frontend Vite + React + TS initialisé
-- [ ] Étape 1.1 : Comprendre les fichiers générés par Vite
-- [ ] Étape 1.2 : Premier composant Tâche
-- [ ] Étape 1.3 : Liste de tâches avec props
-- [ ] Étape 1.4 : Ajout de tâches avec useState
-- [ ] ...
 
 ## 💬 Format de session attendu
 À chaque début de conversation :
 1. Tu me dis où on en est dans la progression
-2. Tu me proposes un mini-quiz de révision sur la session précédente
-3. On démarre la nouvelle notion seulement si le quiz est validé
+2. Creation de branche Git dedier a la feature : feature/etape-1-nomdetape
+
+Fin de session :
+1. Recap de ce qui a été vu
+2. Quiz de validation (5-10 questions)
+3. merge sur main
+
+
+## 📍 Progression
+à venir...
