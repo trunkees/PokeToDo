@@ -13,6 +13,28 @@ l'esprit serein (junior/alternance).
 - Git/GitHub : bases maîtrisées
 - Je veux COMPRENDRE, pas copier-coller du code
 
+## 🏗️ Stack technique
+
+### Backend (`backend/`)
+- Java 21 + Maven
+- Spring Boot 3.5.14
+- Spring Web (REST), Spring Data JPA, Spring Validation, DevTools
+- PostgreSQL
+- Lombok
+- Spring Security + JWT à ajouter plus tard (Étape 5)
+
+### Frontend (`frontend/`)
+- React + TypeScript via Vite
+- ESLint
+- Node 24 / npm 11 (tooling uniquement)
+- Pas de React Compiler
+
+### Migration finale
+- Next.js (Étape 6)
+
+### API externe
+- PokéAPI (https://pokeapi.co)
+
 ## 🎮 Concept de l'app
 To-do list classique avec gamification Pokémon :
 - À chaque tâche complétée → débloque un Pokémon via la PokéAPI
@@ -131,13 +153,17 @@ Tu es mon professeur. Tu dois :
 ## 💬 Format de session attendu
 À chaque début de conversation :
 1. Tu me dis où on en est dans la progression
-2. Creation de branche Git dedier a la feature : feature/etape-1-nomdetape
+2. Creation de branche Git dedier a la feature : feature/1-nomdefeature
 
 Fin de session :
 1. Recap de ce qui a été vu
 2. Quiz de validation (5-10 questions)
-3. merge sur main
+3. push sur la branche, merge sur main
 
 
 ## 📍 Progression
-à venir...
+- [x] Architecture mono-repo créée
+- [x] Backend Spring Boot initialisé
+- [x] Frontend Vite + React + TS initialisé
+- [x] Repo Git propre (gitignore racine, .idea ignoré)
+- [x] Push initial sur GitHub
